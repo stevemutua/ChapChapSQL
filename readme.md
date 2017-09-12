@@ -15,7 +15,7 @@ A light weight PHP library for performing brisk SQL operations.
   - Security is a major concern, and thus major steps are taken to achieve this;
       e.g. use of Prepared Statements, and escaping data before each database operation is executed.
   - Note that in functions which return data from the database, the data is returned in a 2D array. Do a loop to get individual data (examples are given).
-      e.g. in 'select()' && 'select2()' functions.
+      e.g. in ```sql 'select()' && 'select2()' functions. ```
 
 ## 1. USE:
  ### 1.1 Getting Started - Setting up a sample environment
