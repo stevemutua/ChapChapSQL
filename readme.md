@@ -112,9 +112,6 @@ This project uses [semver](https://semver.org) for versioning. Current version: 
 ## Authors & Contributors
 This project was created & is mantained by [Kelvin Kamau](https://github.com/kelvinkamau).
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details.
-
 ## Special Thanks
 Many thanks to **Flavia Mbuki** for introducing the concept of refactoring ChapChapsql via an Object Oriented approach in the previous version.
 
