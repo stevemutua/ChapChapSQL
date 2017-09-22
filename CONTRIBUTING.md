@@ -1,7 +1,7 @@
-# Contributing to the project
+# Contributing to this software project 
 ChapChapSQL is an open source software project and we encourage developers to contribute patches and code for us to include in the main package of ChapChapSQL. All contributions will be fully **credited**.
 
-## Comment your code
+### Comment your code
 Your code should be as self-documenting as possible, but because this is an open source project with multiple contributors please add comments whenever possible.
 
 ### Comment on individual lines
