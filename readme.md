@@ -1,8 +1,9 @@
 # ☲ ChapChapSQL PHP Library [ v2.0.1 rc ]
 **A lightweight PHP library to perform SQL operations swiftly and securely.**
-##### Created by Kelvin Kamau
+#### Created by Kelvin Kamau
 
-
+## Important Update
+Official maintenance withdrawal & support discontinuance for [ChapChap](https://github.com/kelvinkamau/ChapChapSQL) from October, Friday 13th 2017.
 
 ## Features
 | Feature              | Description                                                                             |
