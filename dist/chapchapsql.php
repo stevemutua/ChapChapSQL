@@ -416,10 +416,6 @@ trait args_validations {
 
 /**
  * args_formatting is a trait containing methods related to converting variables into proper SQL syntax
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 trait args_formatting {
 
@@ -1208,10 +1204,6 @@ abstract class connection extends logs
  *               [query]
  *               [order]
  *             )
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 abstract class crud extends connection
 {
