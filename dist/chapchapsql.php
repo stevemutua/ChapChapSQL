@@ -134,10 +134,6 @@ trait files {
 
 /**
  * misc is a trait containing several miscellaneous methods which can be used & reused in different classes
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 trait misc {
 
@@ -267,10 +263,6 @@ trait misc {
 /**
  * args_validations is a trait which checks for certain expectations in args and ensures that they meet the requirements
  * specified. Each method call throws a custom error if validation fails.
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 trait args_validations {
 
@@ -462,10 +454,6 @@ trait args_formatting {
 
 /**
  * init is the abstract base class for all ChapchapSQL contexts. It instantiates user-specific options, and inherits all traits
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 abstract class init
 {
@@ -525,10 +513,6 @@ abstract class init
 
 /**
  * credentials is an abstract child class. It instantiates all necessary database connection credentials
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 abstract class credentials extends init
 {
@@ -883,10 +867,6 @@ abstract class credentials extends init
 
 /**
  * logs is an abstract child class. It contains all methods dealing with error logging
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 abstract class logs extends credentials
 {
@@ -1108,10 +1088,6 @@ abstract class logs extends credentials
 
 /**
  * connection is an abstract child class. It opens and closes connection to a database
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 abstract class connection extends logs
 {
@@ -1634,10 +1610,6 @@ abstract class crud extends connection
 
 /**
  * ChapchapSQL is an abstract child class. It contains all ChapchapSQL method calls for CRUD operations
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 class ChapchapSQL extends crud
 {
@@ -2108,10 +2080,6 @@ class ChapchapSQL extends crud
 /**
  * prepare_all_methods is the abstract base class for all prepare contexts.
  * It instantiates options such as $table and $method_name
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 abstract class prepare_all_methods extends init
 {
@@ -2220,10 +2188,7 @@ abstract class prepare_all_methods extends init
 /**
  * prepare_select is a public child class.
  * It instantiates and formats all select() args into proper SQL syntax
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
+
  */
 class prepare_select extends prepare_all_methods
 {
@@ -2390,10 +2355,6 @@ class prepare_select extends prepare_all_methods
 /**
  * prepare_select2 is a public child class.
  * It instantiates and formats all select2() args into proper SQL syntax
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 class prepare_select2 extends prepare_select
 {
@@ -2442,10 +2403,6 @@ class prepare_select2 extends prepare_select
 /**
  * prepare_insert is a public child class.
  * It instantiates and formats all insert() args into proper SQL syntax
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 class prepare_insert extends prepare_all_methods
 {
@@ -2528,10 +2485,6 @@ class prepare_insert extends prepare_all_methods
 /**
  * prepare_update is a public child class.
  * It instantiates and formats all update() args into proper SQL syntax
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 class prepare_update extends prepare_all_methods
 {
@@ -2646,10 +2599,6 @@ class prepare_update extends prepare_all_methods
 /**
  * prepare_delete is a public child class.
  * It instantiates and formats all delete() args into proper SQL syntax
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 class prepare_delete extends prepare_all_methods
 {
@@ -2726,10 +2675,6 @@ class prepare_delete extends prepare_all_methods
 /**
  * prepare_alter is a public child class.
  * It instantiates and formats all alter() args into proper SQL syntax
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
  */
 class prepare_alter extends prepare_all_methods
 {
