@@ -2,18 +2,9 @@
 
 /*
  *--------------------------------------------------------------------------------------------------------------------------
- * ChapChapSQL v2.0.0 (https://kelvinkamau.github.io/ChapChapSQL) | (c) 2017 Kelvin Kamau | License: MIT
+ * ChapChapSQL v2.0.0 (https://kelvinkamau.github.io/ChapChapSQL) | (c) 2018 Kelvin Kamau
  *--------------------------------------------------------------------------------------------------------------------------
- */
 
-
-/**
- * 'files' is a trait containing methods related to files, for example, reading from files
- *
- * @author: Kelvin Kamau
- * @version 2.0.1 rc
- * @since 2017-09-18
- */
 trait files {
 
   /**
